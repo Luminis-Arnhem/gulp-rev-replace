@@ -82,6 +82,14 @@ Default: `true`
 Use canonical Uris when replacing filePaths, i.e. when working with filepaths
 with non forward slash (`/`) path separators we replace them with forward slash.
 
+#### options.reverse
+Type: `boolean`
+
+Default: `false`
+
+Reverse the replace action, replacing the rev name by the un reved name, 
+usually used after a normal rev-replace to revert the changes
+
 #### options.replaceInExtensions
 Type: `Array`
 
